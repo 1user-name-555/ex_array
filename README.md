@@ -1,4 +1,4 @@
 # ex_array
-Готові завдання по масивах
+Р“РѕС‚РѕРІС– Р·Р°РІРґР°РЅРЅСЏ РїРѕ РјР°СЃРёРІР°С…
 
-Самі завдання https://drive.google.com/file/d/1BBaCg7GIp0obCnd0LnzbkHVYPVnD_UjZ/view 
+РЎР°РјС– Р·Р°РІРґР°РЅРЅСЏ https://drive.google.com/file/d/1BBaCg7GIp0obCnd0LnzbkHVYPVnD_UjZ/view 
