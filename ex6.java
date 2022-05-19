@@ -75,5 +75,6 @@ public class ex6 {
 				q=1;
 			}
 		}while (q==1);
+		
 	}
 }
