@@ -6,7 +6,7 @@ public class ex16 {
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
 		System.out.print("Завдання № 16"+ '\n');
-		System.out.print("Введыть число:"+ '\n');
+		System.out.print("Введiть число n:"+ '\n');
 		int n = in.nextInt();
 	
 		int[][] mass =new int [ n ][ n ];
