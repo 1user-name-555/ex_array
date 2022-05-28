@@ -8,20 +8,20 @@ public class ex14 {
         Scanner readStr = new Scanner(System.in);
         int n;
         
-        System.out.print("Завдання № 13");
-        System.out.print("Введіть розмір послідовності: ");
+        System.out.print("Р—Р°РІРґР°РЅРЅСЏ в„– 13");
+        System.out.print("Р’РІРµРґС–С‚СЊ СЂРѕР·РјС–СЂ РїРѕСЃР»С–РґРѕРІРЅРѕСЃС‚С–: ");
         n = readStr.nextInt();
         if (n > 10000 || n < 1){
-            System.err.print("Помилка введених даних! Дані не задовольняють вимогу");
+            System.err.print("РџРѕРјРёР»РєР° РІРІРµРґРµРЅРёС… РґР°РЅРёС…! Р”Р°РЅС– РЅРµ Р·Р°РґРѕРІРѕР»СЊРЅСЏСЋС‚СЊ РІРёРјРѕРіСѓ");
             System.exit(0);
         }
  
         Integer[] intN = new Integer[n];
-        Arrays.fill(intN, 0); //заповнюємо нулями, якщо введених даних менше
+        Arrays.fill(intN, 0); //Р·Р°РїРѕРІРЅСЋС”РјРѕ РЅСѓР»СЏРјРё, СЏРєС‰Рѕ РІРІРµРґРµРЅРёС… РґР°РЅРёС… РјРµРЅС€Рµ
         String strN;
  
         readStr = new Scanner(System.in);
-        System.out.print("Введіть послідовність чисел через пробіл: ");
+        System.out.print("Р’РІРµРґС–С‚СЊ РїРѕСЃР»С–РґРѕРІРЅС–СЃС‚СЊ С‡РёСЃРµР» С‡РµСЂРµР· РїСЂРѕР±С–Р»: ");
         strN = readStr.nextLine();
         String[] strArray = strN.split("\\s");
         for (int i = 0; i < strArray.length; i++){
@@ -30,11 +30,11 @@ public class ex14 {
  
         int k;
         readStr = new Scanner(System.in);
-        System.out.print("Введіть число K: ");
+        System.out.print("Р’РІРµРґС–С‚СЊ С‡РёСЃР»Рѕ K: ");
         k = readStr.nextInt();
         readStr.close();
  
-        System.out.println("\nПочаткова послідовність: " + Arrays.toString(intN) + "\n");
+        System.out.println("\nРџРѕС‡Р°С‚РєРѕРІР° РїРѕСЃР»С–РґРѕРІРЅС–СЃС‚СЊ: " + Arrays.toString(intN) + "\n");
  
         int countMove;
         if (k > intN.length) k = k % intN.length;
@@ -46,7 +46,7 @@ public class ex14 {
             k++;
         }
  
-        System.out.println("Після зсуву послідовність: " + Arrays.toString(newInt));
+        System.out.println("РџС–СЃР»СЏ Р·СЃСѓРІСѓ РїРѕСЃР»С–РґРѕРІРЅС–СЃС‚СЊ: " + Arrays.toString(newInt));
  
     }
 }
